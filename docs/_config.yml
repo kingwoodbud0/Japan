@@ -10,3 +10,11 @@ baseurl: "/Japan"
 markdown: kramdown
 plugins:
   - jekyll-feed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      permalink: /:year/:month/:day/:title.html
